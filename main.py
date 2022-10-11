@@ -20,7 +20,7 @@ while keep_going ==True:
     keep_going=False
   else:
     clear()
-
+#lastly we want to be able to check the list
 if keep_going == False: 
   bid=0
   for thing in slient_acution:
@@ -31,5 +31,5 @@ if keep_going == False:
       
 print(f'{winner} is the winner at ${bid}')       
 
-#lastly we want to be able to check the list
+
 
